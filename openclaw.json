@@ -1,0 +1,17 @@
+{
+  "gateway": {
+    "mode": "local",
+    "bind": "loopback",
+    "port": 18789
+  },
+  "secrets": {
+    "providers": {
+      "google": {
+        "apiKey": "AIzaSyBOPB4rXZo2wB5FUnnTjWT9ID2yVgu3cEg"
+      }
+    }
+  },
+  "agent": {
+    "model": "google/gemini-2.0-flash"
+  }
+}
